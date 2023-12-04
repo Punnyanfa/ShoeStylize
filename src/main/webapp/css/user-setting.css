@@ -1,0 +1,23 @@
+#content {
+    padding: 40px 15vw;
+}
+
+#form-edit {
+	margin-top: 20px;
+}
+
+#form-edit > section {
+	margin-bottom: 45px;
+}
+
+.form-error {
+	color: red;
+	font-size: 15px;
+	padding: 0 0 10px;
+}
+
+.form-success {
+	color: #07b200;
+	font-size: 15px;
+	padding: 0 0 10px;
+}

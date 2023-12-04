@@ -1,0 +1,80 @@
+.content {
+    padding: 40px 10vw;
+}
+
+.content > div {
+    margin-bottom: 110px;
+}
+
+.content-tab {
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+}
+
+.order-container {
+    min-height: 90vh;
+}
+
+#cart-tabs {
+    border-bottom-color: #ff7300;
+}
+
+#cart-tabs > .nav-item > .nav-link {
+    font-size: 18px !important;
+}
+
+#cart-tabs > .nav-item > .nav-link.active {
+    color: #ff7300 !important;
+    border-top-color: #ff7300;
+    border-left-color: #ff7300;
+    border-right-color: #ff7300;
+}
+
+.search-box {
+    margin-bottom: 30px;
+}
+
+.search-box > input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*Order ID*/
+.order-img {
+    width: 150px;
+    height: 150px;
+}
+
+.order--price {
+    font-weight: 500;
+    color: #ff0000;
+}
+
+.order-tag {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 5px 10px;
+    width: 100px;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.order-note-noti {
+    border: 1px solid #b07200;
+    border-radius: 5px;
+    background-color: #fff8e2;
+    color: #ec7700;
+    padding: 7px 10px;
+    margin-top: 15px;
+}
+
+.order-date {
+    padding-bottom: 15px;
+}
+
+.btn-wide {
+    width: 100% !important;
+    margin-bottom: 4px;
+}

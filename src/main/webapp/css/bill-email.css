@@ -1,0 +1,32 @@
+/* Thiết lập kiểu dáng cho hình chữ nhật */
+.green-rectangle {
+    width: auto; /* Độ rộng của hình chữ nhật */
+    height: 50px; /* Chiều cao của hình chữ nhật */
+    background-color: green; /* Màu nền của hình chữ nhật */
+    color: white; /* Màu chữ trong hình chữ nhật */
+    text-align: center; /* Căn giữa chữ trong hình chữ nhật */
+    line-height: 50px; /* Để chữ nằm giữa theo chiều cao */
+  }
+  /* Kiểu dáng cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Kiểu dáng cho ô tiêu đề cột */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Kiểu dáng cho ô dữ liệu cột */
+  td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+  }
+  .char{
+    text-align: center;
+  }

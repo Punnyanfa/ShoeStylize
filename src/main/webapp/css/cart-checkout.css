@@ -1,0 +1,168 @@
+.content {
+    padding: 25px 5vw;
+}
+
+.sect-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page-check {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 25px 35px;
+}
+
+.image-sample {
+    width: 100px;
+    height: 100px;
+}
+
+#page-pay {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 25px 35px;
+}
+
+.spacer {
+    margin-right: 330px;
+    line-height: 20px;
+}
+
+.note {
+    line-height: 16px;
+}
+
+.pay_title {
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.payment {
+    line-height: 50px;
+
+}
+
+.radio-fake {
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(196, 196, 207);
+    border-radius: 50%;
+    margin-right: 8px;
+    position: relative;
+    z-index: 1;
+    color: rgb(120, 120, 120);
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.radio-fake::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(11, 116, 229);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.3s ease 0s;
+}
+
+.method-icon {
+    margin-right: 12px;
+    object-fit: contain;
+    height: 32px;
+    width: 32px;
+}
+
+.check_address {
+    background-color: #FFFFFF;
+}
+
+/*New*/
+.orders {
+    padding: 15px 0;
+}
+
+#page-address {
+    min-height: 20px;
+    background-color: rgb(255, 251, 251);
+    width: 100%;
+    padding: 25px 3vw;
+    border-radius: 9px;
+}
+
+#page-total {
+    margin-top: 30px;
+    min-height: 20px;
+    background-color: rgb(255, 251, 251);
+    width: 100%;
+    padding: 25px 3vw;
+    border-radius: 9px;
+}
+
+#page-total > .page-total--node {
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+}
+
+.price-status {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#price-final {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+#page-button {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#page-button > button {
+    width: 100%;
+}
+
+/*Emptiness*/
+
+.error {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.error > img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 26px;
+}
+
+.table-cart {
+    box-shadow: 0 0 2px #000000;
+    border-radius: 5px;
+}
+
+#form-view--img {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 3px dashed #000000;
+}
+
+.btn-preview {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.label-grand-total {
+    color: #ff0000;
+}

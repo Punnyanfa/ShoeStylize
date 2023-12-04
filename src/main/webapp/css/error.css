@@ -1,0 +1,21 @@
+.content > div {
+    padding: 50px 0;
+}
+
+.code {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.desc {
+    color: #4B4B4B;
+}
+
+.detail {
+    color: #FF0000;
+    font-size: 20px;
+}
+
+#btn-trial {
+    margin-top: 65px;
+}

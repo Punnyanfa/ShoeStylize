@@ -1,0 +1,115 @@
+#sect-links--grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 25px;
+}
+
+.node-link {
+	box-shadow: 0 0 2px #000000;
+	border-radius: 3px;
+	cursor: pointer;
+	width: 100%;
+	aspect-ratio: 2/1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.node-link:hover {
+	background-color: #eeeeee;
+}
+
+.node-link > p > i {
+	font-size: 35px;
+}
+
+#sect-users {
+	width: 100% !important;
+	margin: 0;
+	padding: 35px 0;
+}
+
+.node-users-row {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.node-users {
+	box-shadow: 0 0 2px #000000;
+	width: 100%;
+	aspect-ratio: 2/1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.node-users--count {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.node-users--label {
+	font-size: 17px;
+}
+
+/*Orders*/
+#sect-orders {
+	width: 100% !important;
+	margin: 0;
+	padding: 35px 0;
+}
+
+.node-orders-row {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.node-orders {
+	box-shadow: 0 0 2px #000000;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.node-orders--count {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.node-orders--label {
+	font-size: 17px;
+}
+
+#orders-graph-container {
+	min-height: 150px;
+}
+
+/*Profit*/
+#sect-profit--grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.node-profit {
+	box-shadow: 0 0 2px #000000;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.node-profit--count {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.node-profit--label {
+	font-size: 17px;
+}

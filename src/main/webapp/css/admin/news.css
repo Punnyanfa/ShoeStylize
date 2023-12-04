@@ -1,0 +1,46 @@
+#admin-news-create-form > div > * {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#admin-news-create-form > div > input,
+#admin-news-create-form > div > textarea {
+    border-radius: 9px;
+    padding: 3px 16px;
+}
+
+.edit-button {
+    border: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin: 10px 0;
+}
+
+.ban-button {
+    border: 0;
+    background-color: #dc0000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin: 10px 0;
+}
+
+.result-table--header {
+    font-weight: 600;
+}
+
+.result-table--header,
+.result-table--body > div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.05fr 0.3fr 0.5fr 0.15fr;
+    margin-bottom: 15px;
+}
+
+.result-table--body > div > * {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

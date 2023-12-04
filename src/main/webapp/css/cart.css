@@ -1,0 +1,52 @@
+.content {
+    padding: 40px 10vw;
+}
+
+.content > div {
+    margin-bottom: 110px;
+}
+
+.content-tab {
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+}
+
+#cart-tabs {
+    border-bottom-color: #ff7300;
+}
+
+#cart-tabs > .nav-item > .nav-link {
+    font-size: 18px !important;
+}
+
+#cart-tabs > .nav-item > .nav-link.active {
+    color: #ff7300 !important;
+    border-top-color: #ff7300;
+    border-left-color: #ff7300;
+    border-right-color: #ff7300;
+}
+
+/*Order*/
+.order-image {
+    width: 100px;
+    height: 100px;
+}
+
+.order-price {
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.webgl {
+    width: 500px !important;
+    height: 300px !important;
+}
+
+#form-view--shoePrice {
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.btn-wide {
+    width: 100%;
+}

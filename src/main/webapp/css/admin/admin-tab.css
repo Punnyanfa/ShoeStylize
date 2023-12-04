@@ -1,0 +1,43 @@
+body {
+	overflow-y: hidden;
+}
+
+.content-tab {
+	background-color: #000000;
+	padding: 25px 0 !important;
+}
+
+.module {
+	margin-bottom: 25px;
+}
+
+.content-tab > a > button {
+	border: 0;
+	background-color: #000000;
+	width: 100%;
+	text-align: left;
+	padding: 20px 1.5vw !important;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.content-tab > a > button:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.content-tab > a > button > i {
+	margin-right: 10px;
+}
+
+.content-frame {
+	height: 100vh;
+	max-height: 100vh;
+	padding: 25px 5vw 120px !important;
+	box-shadow: 0 0 3px #000000;
+	overflow-y: auto;
+}
+
+.component--search {
+	margin: 45px 0;
+}

@@ -1,0 +1,37 @@
+.order--img {
+	width: 100px;
+	height: 100px;
+}
+
+.order-tag {
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 5px 10px;
+	width: 100px;
+	background-color: black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.order--price {
+	font-weight: 500;
+	color: red;
+}
+
+.canvas-webgl-container {
+	aspect-ratio: 5/2;
+	background-color: #e5e5e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.order-title {
+	padding: 50px 0;
+}
+
+.order-date {
+	padding-top: 35px;
+	font-size: 15px;
+}

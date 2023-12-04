@@ -1,0 +1,24 @@
+.content {
+	position: relative !important;
+}
+
+.content-background {
+	height: 600px;
+	background-image: url("../assets/contact_img.png");
+	background-size: cover;
+}
+
+.frame-black {
+	background: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0) 100%);
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 6vw;
+	color: #FFFFFF;
+}
+
+.frame-black * a {
+	color: #FFFFFF !important;
+}

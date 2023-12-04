@@ -1,0 +1,50 @@
+.edit-button {
+	border: 0;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	border-radius: 9px;
+	margin: 10px 0;
+}
+
+.ban-button {
+	border: 0;
+	background-color: #dc0000;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	border-radius: 9px;
+	margin: 10px 0;
+}
+
+.result-table {
+	margin-top: 25px;
+}
+
+.result-table--header > p {
+	font-weight: 600;
+}
+
+.result-table--header,
+.result-table--body > div {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 0.1fr 0.2fr 0.2fr 0.3fr 0.1fr 0.1fr;
+	column-gap: 20px;
+	align-items: center;
+}
+
+.result-table--body > div > * {
+	max-width: 100%;
+	overflow: hidden;
+	white-space:normal;
+	text-overflow: ellipsis;
+}
+
+.user-tag {
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 9px;
+	padding: 5px 10px;
+	width: 85px;
+}

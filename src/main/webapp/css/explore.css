@@ -1,0 +1,164 @@
+.image-explore {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.style-nodes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 45px;
+    column-gap: 35px;
+}
+
+
+.style-node {
+    box-shadow: 0px 0px 2px 2px #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.style-node > .style--title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    min-height: 57px;
+    margin-bottom: 5px !important;
+}
+
+.style-node > .style--author {
+    font-size: 13px;
+    text-align: center;
+}
+
+.style-node > .style--price {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 106, 0);
+}
+
+.people {
+    margin-left: 20px;
+    padding-left: 100px
+}
+
+.component--search {
+    width: 100vw;
+    text-align: center;
+}
+
+/*Split!*/
+
+.banner {
+    background-color: #000000;
+    min-height: 150px;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.banner > .banner--title {
+    padding-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.banner > p {
+    font-size: 14px;
+}
+
+.component--search * input[type=text] {
+    width: 50vw;
+    border: 1px solid #000000;
+    margin: 0;
+    padding: 8px 15px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.component--search * input[type=submit] {
+    margin: 0;
+    padding: 8px 15px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 6px;
+}
+
+
+
+.tab-filter {
+    padding: 35px 76px !important;
+    border-right: 2px solid #eee;
+}
+.tab-filter h4 {
+    margin-bottom: 25px;
+}
+.fildset-opt input {
+    width: 15px;
+    height: 15px;
+}
+
+.fildset-opt label {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fildset-opt input.btn-submit {
+   padding: 4px 16px;
+    border-radius: 6px;
+    color: white;
+    background: black;
+    width: 120px;
+    height: 44px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.tab-styles {
+    padding: 35px 5vw !important;
+}
+
+fieldset {
+    padding-bottom: 25px !important;
+}
+
+legend {
+    font-size: 14px !important;
+    font-weight: 600;
+}
+select {
+    border-radius: 4px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.style-info-btn {
+    border: 0;
+    background-color: black;
+    padding: 10px 0;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .style-nodes {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 20px;
+        column-gap: 0;
+    }
+}

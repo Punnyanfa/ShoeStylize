@@ -1,0 +1,51 @@
+.content-tool {
+    padding: 25px 0;
+}
+
+.component--search > input {
+    width: 100%;
+    border: 1px solid #000000;
+    margin: 0;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.edit-button {
+    border: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin: 10px 0;
+}
+
+.ban-button {
+    border: 0;
+    background-color: #dc0000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin: 10px 0;
+}
+
+.result-table--header,
+.result-table--body > form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.05fr 0.1fr 0.1fr 0.1fr 0.4fr 0.1fr 0.15fr;
+    column-gap: 20px;
+}
+
+.result-table--body > form > * {
+    max-width: 100%;
+    overflow: hidden;
+    white-space:normal;
+    text-overflow: ellipsis;
+}
+
+.result-table--body > form > * * p {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
